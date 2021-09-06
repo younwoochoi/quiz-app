@@ -1,0 +1,266 @@
+########<Log in items>###########
+{welcomer: ¡Hora de estudiar!}
+{logInExiter: ¡Gracias por utilizar esta instrumento de estudio!}
+{introduceWelcomer: Este es el mensaje de bienvenida: }
+{chooseNewWelcomer: ¿Cuál es el nuevo mensaje de bienvenida para este idioma? Escriba q para salir: }
+{introduceExiter: Este es el mensaje de salida: }
+{chooseNewExiter: ¿Cuál es el nuevo mensaje de salida para este idioma? Escriba q para salir: }
+{welcomerOrExiterPrompt:
+What would you like to edit?
+1, Mensaje de bienvenida
+2, Mensaje de salida
+3, Salir
+}
+{editAdminKeyPrompt: Would you like to change the admin key? (y/n): } // TODO
+{introduceAdminKey: This is the current admin key: } // TODO
+{newAdminKeyPrompt: What is the new admin key?: } // TODO
+{logInUserNamePrompt: Ingresa tu usario: }
+{logInPasswordPrompt: Ingresa tu contrasena: }
+
+{logInMenu:
+1, Iniciar session.
+2, Crea una cuenta / Empezar una cuenta de prueba.
+3, Retablecer su contraseña.
+}
+
+{logInTypeOfAccountMenu:
+Please enter the number before the type of account you want to create.
+If you're an admin, please enter the code.
+1, Usuarios Normales
+2, Usuarios Temporales (disponible para jugar por 30 días)
+3, Usuarios de Prueba (disponible para jugar solo una vez)
+}
+
+{logInAdminKeyPrompt: Si eres un administrador, ingrese su clave (si no tengas un clave, escriba 0)}
+{logInIncorrectAdminKey: Clave de administrador incorrecta. }
+{logInCreateAccountError: Error. Cuenta no creada. Verifica que su contrasena es valido. }
+{logInAccountSuspended: Esta cuenta está suspendida. }
+{logInCreateUserNamePrompt: ¿Qual nombre prefieras para su usuario?: }
+{logInCreatePasswordPrompt: ¿Que prefieras para su contraseña?:
+Condiciones de contraseña:
+- tiene al menos 10 caracteres
+- sin espacios
+- Al menos una letra mayúscula
+- al menos una letra minúscula
+- al menos un dígito
+- al menos un carácter especial
+}
+{logInCreateEmailPrompt: ¿Escriba tu correo electrónico (para recuperación de su cuenta) ? }
+{logInUsernameResetPrompt: ¿Escriba el usario de la cuenta que qieres restablecer? }
+{logInResetAccountPrompt: Un correo ha envido a la cuenta associado con su usario. : }
+{logInSayUsernameNotUnique: Su usuario no es único. Inténtalo de nuevo.}
+{logInSaySuccessfulAccountCreation: ¡Cuenta creado!}
+{logInTrialNamePrompt: ¿Que quieres que llamamos?: }
+{logInSayTrialStarted: Su cuenta de prueba se inició correctamente }
+{logInSayLoginSuccess: Succedio de acceder a tu cuenta.}
+{logInSayPasswordChangeSuccess: Succedio modificar contraseña.}
+{logInSayLoginError: Su usarsio o contraseña es invalido.}
+{logInSayUserName: Su usario es: }
+{logInSayUserID: Su numero de cuenta es: }
+{logInSayUserType: Su tipo de cuenta es: }
+{logInUserNotExist: ¡Su cuenta no exista!}
+{logInSaveOrNotPrompt: ¿Desea's guardar su progreso? (s / n): }
+
+
+{chooseAdminName: Ingrese el usuario del nuevo administrador, escriba q para salir: }
+{chooseAdminPassword: Ingrese la nueva contraseña de administrador: }
+{chooseAdminEmail: Ingrese el correo electrónico del nuevo administrador: }
+{currentlyFrozen: Las cuentas se bloquen para }
+{days: dias.}
+{currentlyNotFrozen:  Las cuentas no estan bloqueados.}
+{changeFreezeStatusPrompt: ¿Le gustaría cambiar el estado de congelación? (s/n) }
+{freezeAccountsForHowManyDaysPrompt: ¿ Por cuánto tiempo quieres bloquear las cuentas? (en días): }
+
+
+########<Press enter>#########
+{pressEnterToContinue: Presione enter para continuar: }
+{pressEnterToShowAnswer: Presione Enter para mostrar la respuesta.}
+
+
+###########<Option Chooser>###########
+{chooseUserToAddFriendPrompt: Untranslated. Please enter the username that you would like to add as a friend: }
+{friendAddFailed: Untranslated. Friend was not added. }
+{friendAddSucceeded: Untranslated. Friend was added. }
+{chooseOptionWithQuitPrompt: Elija un número de las opciones, ingrese q para salir:: }
+{chooseOptionPrompt: Elija un número de las opciones: }
+{chooseStudyToolToEditPrompt: Ingrese el numero del instrumento de estudio que quieres modificar, ingrese q para salir: }
+{chooseStudyToolToStudyPrompt: Ingrese el numero del instrumento de estudio que quieres usar, ingrese q para salir: }
+{chooseStudyToolToDeletePrompt: Ingrese el numero del instrumento de estudio que quieres borrar, ingrese q para salir: }
+{chooseStudyToolToUndeletePrompt: Untranslated. Please enter the id of the study tool you want to undelete, enter q to quit: }
+{chooseUserToSuspend: Ingrese el nombre del cuenta que quieres borrar, ingrese q para salir: } // TODO
+{chooseNumberOfDaysToSuspend: ¿Por cuantas dias quieres suspendir la cuenta? } // TODO
+{saySuspensionSuccess: suspension exitosa.} // TODO
+{suspendAnotherUserPrompt: ¿Quieres suspendir otras cuentas? (y/n): }
+{saveOrNotPrompt: ¿Deseas guardar esta instrumento de estudios? (y/n): }
+
+
+###########<Number Chooser>###########
+{chooseQuestionNumberToEditPrompt: Ingrese el numero del pregunta que quieres modificar: }
+{chooseTemplatePrompt: Ingrese el numero del modelo que quieres modificar (ingrese q para salir al menu): }
+{templateIDPrompt: Ingrese el numero del examen que quieres usar: }
+
+
+##########<Sentential inputs>############
+{newQuestionPrompt: Ingrese la pregunta: }
+{newQuestionWithQuitPrompt: Ingrese su pregunta, ingrese q para terminar: }
+{newAnswerPrompt: Ingrese la respuesta: }
+{getAnswerPrompt: Escriba su respuesta: }
+{getFCAnswerPrompt: Si sabes la respuesta, presione y, de lo contrario, presione n.}
+{getMCAnswerPrompt: Escriba sus opciones de la forma a, b, c: }
+{setStudyToolNamePrompt: ¿Cómo quieres nombrar tu instrumento de estudio? }
+{setAccessibilityPrompt: Ingrese la accesibilidad deseada? (Untranslated. public, friend or private): }
+{editNameGenericPrompt: ¿Cuál es su nombre nuevo?: }
+
+
+#######<Menus>########
+{regularMainMenuChoicesDisplay:
+1, Ver todas las instrumentos de estudio públicas.
+2, Ver todas las instrumentos de estudio creadas por usted.
+3, Modifica tu instrumentos de estudio.
+4, Estudie con una instrumentos de estudio pública o una de sus instrumentos de estudio.
+5, Crea un instrumento de estudio.
+6, Cambie la accesibilidad de una instrumento de estudio que hayas creado.
+7, Vea todos los colaboradores de una herramienta de estudio / Agregar o eliminar usarios }
+
+{studyToolEditMenuChoicesDisplay:
+1, Modifica una pregunta.
+2, Modifica la respuesta a una pregunta.
+3, Agregua una pregunta.}
+
+{adminMainMenuDisplay:
+1, Ver / Editar / Crear modelos.
+2, Ver todas las instrumentos de estudio para estudiar.
+3, Cambiar la accesibilidad de un instrumentos de estudio.
+4, Eliminar un instrumentos de estudio.
+5, Crea un instrumentos de estudio.
+6, Edite sus instrumentos de estudio.
+7, Handle users (suspend, freeze, ...). // TODO: untranslated
+8, Modifica el mensaje de bienvenida o de salida.
+9, Modifica el admin key. // TODO: untranslated
+10, Salir.}
+
+{templateMenu:
+1, Ver todos los modelos / Modifica modelos.
+2, Crea un modelo.
+3, Salir.}
+
+{userHandlingMenu:
+1, Ver las cuentas.
+2, Suspender una cuenta.
+3, Freeze Accounts. // TODO: untranslated
+4, Salir.}
+
+{editTemplateMenuFC: What would you like to edit?
+1, Nombre del modelo.
+2, Eliminar modelo.
+3, Cambiar el configuración del tiempo.
+4, Cambiar el configuración del puntos.
+5, Si reaparecen palabras desconocidas.
+6, Salir. }
+
+{editTemplateMenuMCQ: What would you like to edit?
+1, Nombre del modelo.
+2, Eliminar modelo.
+3, Cambiar el configuración del tiempo.
+4, Cambiar el configuración del puntos.
+5, Salir. }
+
+
+##########<Template Creator>##########
+{templateCreatorname: ¿Cuál es el nombre del modelo?: }
+{templateCreatorFCCreatedReporter: Modelo de tarjeta flash creada con numeros: }
+{templateCreatorEAQCreatedReporter: Modelo de opción de respuesta exacta creada con numeros: }
+{templateCreatorMCQCreatedReporter: Modelo de opción múltiple creada con id: }
+{createTemplateMenu: ¿Qué tipo de cuestionario deseas crear?
+1, Modelo de cuestionario de tarjeta flash.
+2, Modelo de cuestionario de opción múltiple.
+3, Modelo de cuestionario de respuesta exacta.
+4, Salir.}
+
+
+################<Template editor>##############
+{templateEditorTemplateTimedMenu: ¿Cómo deseas modificar este modelo?:
+1, Si las plantillas están cronometradas o no..
+2, Si las plantillas están cronometradas por cuestionario o por pregunta.
+3, Límite de tiempo.
+4, Salir.}
+
+{templateEditorunfamiliarFCReappear: ¿Reaparecerán tarjetas flash desconocidas? (verdadero / falso): }
+{templateEditortemplateScored: ¿El modelo tiene puntos? (verdadero / falso):: }
+{templateEditorTemplateTimed: ¿El modelo será cronometradas? (verdadero / falso): (true/false): }
+{templateEditorTemplateTimedPerQuestion: Ingrese verdadero si las plantillas serán cronometradas por pregunta,
+ingrese falso si será cronometrado por todo el cuestionario: }
+{templateEditorTemplateTimeLimit: Ingrese el límite de tiempo para las preguntas (en segundos): }
+
+##########<Reporter>############
+
+{quizSaved: Cuestionario guardada.}
+{scoreReporter: Tu puntuación es: }
+{studySessionEndedReporter: Su sesión de estudio ha finalizado.}
+{correctReporter: Su respuesta es correcta.}
+{incorrectReporter: Su respuesta es incorrecta.}
+{templateDeletedReporter: Modelo eliminado.}
+{invalidInputReporter: Entrada no válida. Inténtalo de nuevo.}
+{templateEditedReporter: la modification se ha realizado correctamente.}
+{illegalAnswerReporter: La respuesta que ingresó no es de un formato aceptable, por favor intentalo de nuevo.
+
+
+##########<Sorrier>#############
+
+{noStudyToolToEditSorrier: No tienes permiso para editar esta instrumento de estudio, verifique el numero nuevamente.}
+{noStudyToolToStudySorrier: No tienes permiso para estudiar con esta herramienta de estudio, verifique el numero nuevamente.}
+{noTemplateToChooseSorrier: No parece que hay modelos disponibles para elegir. }
+{noStudyToolToDeleteSorrier: No hay un instrumento de estudio con esa numero para eliminar, verifique el numero nuevamente. }
+{noStudyToolToUndeleteSorrier: Untranslated. Sorry. There is no study tool with that id to undelete, please check the id again. }
+
+
+##########<Study Tool Display>##########
+{studyToolDisplayName: Nombre: }
+{studyToolDisplayID: ID: }
+{studyToolDisplayAuthor: Autor: }
+{studyToolDisplayAccessibility: Accesibilidad: }
+{studyToolDisplayCurrQA: Preguntas y respuestas: }
+{studyToolDisplayQuestion: Pregunta: }
+{studyToolDisplayAnswer: Respuesta: }
+{studyToolDisplayAnswerIs: La respuesta de esta pregunta es: }
+{studyToolDisplayVisibleStudyTools: Instrumentos de estudio visible, untranslated: }
+{studyToolDisplayAllStudyTools: Todas las instrumentos de estudio: }
+{studyToolDisplayOwnedStudyTools: Tus instrumentos de estudio: }
+{studyToolDisplayOwnedDeletedStudyTools: Unstranslated. Owned deleted study tools: }
+{studyToolDisplayInvitedStudyTools: Eres invitado a editar: }
+{displayAllCollaborators: Colaboradores de esta instrumento de estudio: }
+{ranOutOfTime: Untranslated. Sorry, you have exceeded the time limit, this won't be scored.}
+
+###########<Template display>#############
+{templateDisplayername: Nombre: }
+{templateDisplayerid: ID: }
+{templateDisplayertype: Tipo: }
+{templateDisplayerisTimed: Es cronometrada: }
+{templateDisplayertimedPerQuestionNotQuiz: está cronometrada para la pregunta y no para el cuestionario completo: }
+{templateDisplayertimeLimit: Límite de tiempo: }
+{templateDisplayerisScored: Es puntuado: }
+{templateDisplayerwordsReappear: Palabras reapparecen: }
+{templateDisplayernumCategories: Número de categorías: }
+{templateDisplayershowCorrectAnswerAfterQuestion: Mostrar la respuesta correcta después de cada pregunta: }
+{templateDisplayershowCorrectAnswersAfterQuiz: Mostrar las respuestas correctas después de todo el cuestionario: }
+{templateDisplayerTemplates: Todas los modelos: }
+
+
+###########<Collaboration>###################
+{collaborateStudyToolIDPrompt: ¿Cuál es la identificación de la instrumento de estudio que desea que otro usuario edite? Ingrese q para salir: }
+{collaboratorNameWithQuitPrompt: ¿Cuál es el usuario que deseas invitar? Ingrese q para salir: }
+{sayCollaboratorAdded: ¡Colaborador agregado! }
+{sayCollaboratorRemoved: ¡Colaborador eliminado! }
+{collabMenu:
+1, Agregue un colaborador.
+2, Eliminar un colaborador.
+}
+{noCollaboratorsExist: Este instrumento de estudio no tiene colaboradores. }
+
+{userDisplayerUsers: Cuentas: } // TODO
+{userID: userID= }
+{name: name= }
+{suspended: suspended= }
+{frozen: frozen= }
+{suspendedFor: dias mas de suspension= } // TODO
+{lastLogIn: Last log in= } // TODO

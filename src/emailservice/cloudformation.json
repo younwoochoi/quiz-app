@@ -1,0 +1,36 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "VisualEditor0",
+      "Effect": "Allow",
+      "Action": [
+        "ses:SendEmail",
+        "logs:CreateLogGroup"
+      ],
+      "Resource": [
+        "arn:aws:ses:eu-west-1:672647689973:identity/christopher.paul.dryden@gmail.com",
+        "arn:aws:logs:us-east-1:672647689973:*"
+      ]
+    },
+    {
+      "Sid": "VisualEditor1",
+      "Effect": "Allow",
+      "Action": [
+        "ses:SendEmail",
+        "logs:CreateLogStream",
+        "logs:PutLogEvents"
+      ],
+      "Resource": [
+        "arn:aws:logs:us-east-1:672647689973:log-group:/aws/lambda/emailReset:*",
+        "arn:aws:ses:eu-west-1:672647689973:identity/christopher.paul.dryden@gmail.com"
+      ]
+    },
+    {
+      "Sid": "VisualEditor2",
+      "Effect": "Allow",
+      "Action": "ses:SendEmail",
+      "Resource": "*"
+    }
+  ]
+}

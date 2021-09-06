@@ -1,0 +1,289 @@
+########<Log in items>###########
+{welcomer: Welcome!}
+{logInExiter: Thank you for using this study tool!}
+{introduceWelcomer: This is the current welcome message: }
+{chooseNewWelcomer: What is the new welcome message for the current language? Type q to quit: }
+{introduceExiter: This is the current exit message: }
+{chooseNewExiter: What is the new exit message for the current language? Type q to quit: }
+{welcomerOrExiterPrompt:
+What would you like to edit?
+1, Welcome message
+2, Exit Message
+3, Quit
+}
+{editAdminKeyPrompt: Would you like to change the admin key? (y/n): }
+{introduceAdminKey: This is the current admin key: }
+{newAdminKeyPrompt: What is the new admin key?: }
+{logInUserNamePrompt: What is your username?: }
+{logInPasswordPrompt: What is your password?: }
+
+{logInMenu:
+1, Log In.
+2, Create an account / start a trial.
+3, Reset password for account.
+}
+
+{logInTypeOfAccountMenu:
+Please enter the number before the type of account you want to create.
+If you're an admin, please enter the code.
+1, Regular users
+2, Temporary users (available to play for 30 days)
+3, Trial users (available to play this time only)
+}
+
+{logInAdminKeyPrompt: If you're an admin, enter the key (otherwise, type 0):}
+{logInIncorrectAdminKey: Incorrect admin key. }
+{logInCreateAccountError: Error. Account not created. Verify that your password meets the specified conditions }
+{logInAccountSuspended: This account is suspended. }
+{logInCreateUserNamePrompt: What would you like your username to be?: }
+{logInCreatePasswordPrompt: What would you like your password to be?:
+Password Conditions:
+- is at least 10 characters
+- no whitespaces
+- at least one capital letter
+- at least one lowercase letter
+- at least one digit
+- at least one special character
+}
+{logInCreateEmailPrompt: What is your email address (for account recovery purposes)?: }
+{logInUsernameResetPrompt: What is the account that you'd like to reset?: }
+{logInResetAccountPrompt: An email has been sent to the email address associated to this account?: }
+{logInProvideNewPinPrompt: Please enter the pin that has been sent to your account?: }
+{logInSayUsernameNotUnique: The chosen username is not unique. Please try again.}
+{logInSaySuccessfulAccountCreation: Your account has been created!}
+{logInTrialNamePrompt: What should we call you?: }
+{logInSayTrialStarted: Your trial has successfully been started, }
+{logInSayLoginSuccess: Successfully logged in.}
+{logInSayPasswordChangeSuccess: Successfully changed password.}
+{logInSayLoginError: Incorrect username or password.}
+{logInSayUserName: Your username is: }
+{logInSayUserID: Your users ID is: }
+{logInSayUserType: Your users type is: }
+{logInUserNotExist: User does not exist!}
+{logInSaveOrNotPrompt: Do you want to save your progress (y/n): }
+
+
+{currentlyFrozen: Accounts are currently frozen after }
+{days: days.}
+{sayProgramFrozenFor: Study tools are now frozen after }
+{currentlyNotFrozen: Accounts are currently not frozen.}
+{changeFreezeStatusPrompt: Would you like to change the freeze status? (y/n): }
+{freezeAccountsForHowManyDaysPrompt: How long do users have to be absent for accounts to freeze (in days)?: }
+
+
+########<Press enter>#########
+{pressEnterToContinue: Press enter to continue: }
+{pressEnterToShowAnswer: Press Enter to show answer.}
+
+
+###########<Option Chooser>###########
+{chooseUserToAddFriendPrompt: Please enter the username that you would like to add as a friend: }
+{friendAddFailed: Friend was not added. }
+{friendAddSucceeded: Friend was added. }
+{chooseOptionWithQuitPrompt: Please choose a number from the above options, enter q to quit: }
+{chooseOptionPrompt: Please choose a number from the above options: }
+{chooseStudyToolToEditPrompt: Please enter the id of the study tool you are editing, enter q to quit: }
+{chooseStudyToolToStudyPrompt: Please enter the id of the study tool you want to study, enter q to quit: }
+{chooseStudyToolToDeletePrompt: Please enter the id of the study tool you want to delete, enter q to quit: }
+{chooseStudyToolToUndeletePrompt: Please enter the id of the study tool you want to undelete, enter q to quit: }
+{chooseUserToSuspend: Please enter the name of the user you want to suspend, enter q to quit: }
+{chooseNumberOfDaysToSuspend: Please enter the number of days you want to suspend }
+{saySuspensionSuccess: This user has been successfully suspended.}
+{suspendAnotherUserPrompt: Do you want to suspend another users (y/n): }
+{saveOrNotPrompt: Do you want to save this study tool (y/n): }
+
+
+###########<Number Chooser>###########
+{chooseQuestionNumberToEditPrompt: Enter the question number that you want to edit: }
+{chooseTemplatePrompt: Type the id of the template you wish to edit (type q to quit to menu): }
+{templateIDPrompt: Please enter the id of the template that your quiz will be using: }
+
+
+##########<Sentential inputs>############
+{newQuestionPrompt: Please enter the question, type \n if you want to start a new line: }
+{newQuestionWithQuitPrompt: Please enter your question, type \n if you want to start a new line, enter q to finish: }
+{newAnswerPrompt: Please enter the answer: }
+{getAnswerPrompt: Please type your answer: }
+{getFCAnswerPrompt: If you know the answer, press y, otherwise, press n.}
+{getMCAnswerPrompt: Please type your choices of the form a, b, c: }
+{getSORAnswerPrompt: Please type your choices of the form (number, letter), (number, letter)... : }
+{setStudyToolNamePrompt: What do you want to name your study tool: }
+{setAccessibilityPrompt: Please enter your desired accessibility (public, friend or private): }
+{editNameGenericPrompt: What is the new name: }
+
+
+#######<Menus>########
+{regularMainMenuChoicesDisplay:
+1, View all study tools available to you.
+2, View all study tools created by you and those you are invited to edit.
+3, Edit a study tool.
+4, Study with a public study tool or one of your own study tools.
+5, Create study tool.
+6, Change the accessibility of a study tool that you have created.
+7, View edit history of a study tool / Revert to a previous version
+8, Manage collaboration on your study tools.
+9, Add a friend.
+10, Delete one of your study tools.
+11, Undelete a study tool.}
+
+{studyToolEditMenuChoicesDisplay:
+1, Edit a question.
+2, Edit the answer to a question.
+3, Add a question.}
+
+{adminMainMenuDisplay:
+1, View/Edit/Create templates.
+2, View all study tools to study.
+3, Change accessibility of a study tool.
+4, Delete a study tool.
+5, Create a study tool.
+6, Edit your study tools.
+7, Handle users (suspend, freeze, ...).
+8, Edit the welcome or exit message.
+9, Edit the admin key.
+10, Quit.}
+
+{userHandlingMenu:
+1, View all users.
+2, Suspend a user.
+3, Freeze Accounts.
+4, Quit.}
+
+{templateMenu:
+1, View all templates / Edit templates.
+2, Create a template.
+3, Quit.}
+
+{editTemplateMenuFC: What would you like to edit?
+1, Template name.
+2, Delete templates.
+3, Change timed settings.
+4, Change score settings.
+5, If unfamiliar words reappear.
+6, Quit. }
+
+{editTemplateMenuMCQ: What would you like to edit?
+1, Template name.
+2, Delete templates.
+3, Change timed settings.
+4, Change score settings.
+5, Quit. }
+
+{editTemplateMenuSOR: What would you like to edit?
+1, Template name.
+2, Delete templates.
+3, Change timed settings.
+4, Change score settings.
+5, Change the number of categories.
+6, Quit. }
+
+
+##########<Template Creator>##########
+{templateCreatorname: What is the name of the template?: }
+{templateCreatorFCCreatedReporter: Flash Card Template created with id: }
+{templateCreatorEAQCreatedReporter: Exact Answer Choice Template created with id: }
+{templateCreatorMCQCreatedReporter: Multiple Choice Template created with id: }
+{templateCreatorSORCreatedReporter: Sorting Template created with id: }
+{createTemplateMenu: What type of quiz do you want to create?
+1, Flash Card Quiz Template.
+2, Multiple Choice Quiz Template.
+3, Exact Answer Quiz Template.
+4. Sorting Quiz Template.
+5, Quit.}
+
+
+################<Template editor>##############
+{templateEditorTemplateTimedMenu: How do you want to modify this template:
+1, If the templates is timed or not.
+2, If the templates is timed per quiz or per question.
+3, Time limit.
+4, Quit.}
+
+{templateEditorunfamiliarFCReappear: Unfamiliar flash cards will reappear (true/false): }
+{templateEditortemplateScored: The templates will be scored (true/false): }
+{templateEditorTemplateTimed: The templates will be timed (true/false): }
+{templateEditorTemplateTimedPerQuestion: Enter true if the templates will be timed per question,
+enter false if it will be timed per entire quiz: }
+{templateEditorTemplateTimeLimit: Enter the time limit (in seconds): }
+{templateEditorTemplateSORNumCategories: Enter the number of categories: }
+
+##########<Reporter>############
+
+{quizSaved: Quiz saved.}
+{scoreReporter: Your score is: }
+{studySessionEndedReporter: Your study session has ended.}
+{correctReporter: Your answer is correct.}
+{incorrectReporter: Your answer is incorrect.}
+{templateDeletedReporter: Template deleted.}
+{invalidInputReporter: Invalid input. Please try again.}
+{templateEditedReporter: The edit has been successfully made.}
+{illegalAnswerReporter: The answer you entered is not of an acceptable form, please try again.}
+
+
+##########<Sorrier>#############
+
+{noStudyToolToEditSorrier: Sorry. You do not have the permission to edit this study tool, please check the id again.}
+{noStudyToolToStudySorrier: Sorry. You do not have the permission to study with this study tool, please check the id again.}
+{noTemplateToChooseSorrier: Sorry. There doesn't seem to be an available templates to choose from. }
+{noStudyToolToDeleteSorrier: Sorry. There is no study tool with that id to delete, please check the id again. }
+{noStudyToolToUndeleteSorrier: Sorry. There is no study tool with that id to undelete, please check the id again. }
+
+##########<Study Tool Display>##########
+{studyToolDisplayName: Name: }
+{studyToolDisplayID: ID: }
+{studyToolDisplayAuthor: Author: }
+{studyToolDisplayAccessibility: Accessibility: }
+{studyToolDisplayCurrQA: Current questions and answers: }
+{studyToolDisplayQuestion: Question: }
+{studyToolDisplayAnswer: Answer: }
+{studyToolDisplayAnswerIs: The answer for this question is: }
+{studyToolDisplayVisibleStudyTools: Visible study tools: }
+{studyToolDisplayAllStudyTools: All study tools: }
+{studyToolDisplayOwnedStudyTools: Owned study tools: }
+{studyToolDisplayOwnedDeletedStudyTools: Owned deleted study tools: }
+{studyToolDisplayInvitedStudyTools: You are invited to edit: }
+{displayAllCollaborators: Collaborators of this study tool: }
+{editHistory: Edit history: }
+{editTime: Time of edit}  TODO: added by Charlie
+{editorName: Editor}    TODO: added by Charlie
+{ranOutOfTime: Sorry, you have exceeded the time limit, this won't be scored.}
+
+
+###########<Template display>#############
+{templateDisplayername: Name: }
+{templateDisplayerid: ID: }
+{templateDisplayertype: Type: }
+{templateDisplayerisTimed: Is timed: }
+{templateDisplayertimedPerQuestionNotQuiz: Is timed for question and not entire quiz: }
+{templateDisplayertimeLimit: Time limit: }
+{templateDisplayerisScored: Is scored: }
+{templateDisplayerwordsReappear: Words Reappear: }
+{templateDisplayernumCategories: Number of Categories: }
+{templateDisplayershowCorrectAnswerAfterQuestion: Show correct answer after each question: }
+{templateDisplayershowCorrectAnswersAfterQuiz: Show correct answers after the entire quiz: }
+{templateDisplayerTemplates: All templates: }
+
+
+###########<Collaboration>###################
+{collaborateStudyToolIDPrompt: What is the id of the study tool you want to view/change, enter q to quit: }
+{collaboratorNameWithQuitPrompt: What is the user name of the collaborator, enter q to quit: }
+{sayCollaboratorAdded: Collaborator added! }
+{sayCollaboratorRemoved: Collaborator removed! }
+{collabMenu:
+1, Add a collaborator.
+2, Remove a collaborator.
+}
+{noCollaboratorsExist: This study tool has no collaborators. }
+
+
+#############<Version Control>################
+{revertVersionWithQuitPrompt: Enter the number before the version you want to revert to, enter q to quit: } TODO: added by Charlie
+{sayStudyToolVersionReverted: Study tool version reverted! }
+
+{userDisplayerUsers: Users: }
+{userID: userID= }
+{name: name= }
+{suspended: suspended= }
+{frozen: frozen= }
+{suspendedFor: days more of suspension= }
+{lastLogIn: Last log in= }
